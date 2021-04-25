@@ -66,5 +66,5 @@ function cleanMarkup() {
 }
 
 function onFetchError(error) {
-    alert('Упс, что-то пошло не так и мы не нашли вашего покемона!');
+    alert('Упс, что-то пошло не так и мы не нашли вашeу страну!');
   }
