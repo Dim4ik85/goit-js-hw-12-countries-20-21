@@ -57,10 +57,14 @@ function onSearch(e){
                                 });
                          }
          })
+         .catch(onFetchError)
+         
 }
 
 function cleanMarkup() {
     refs.description.innerHTML = '';  
 }
 
-
+function onFetchError(error) {
+    alert('Упс, что-то пошло не так и мы не нашли вашего покемона!');
+  }
